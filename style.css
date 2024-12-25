@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 69, 0);
+    border-radius: 10px;
+}
+.logo{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+}
+.titre{
+   margin: 25px;
+   font-size: 2em;
+   color: white;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    
+}
+.li{
+    transition: transform 0.5s;
+}
+.li:hover{
+    transform: translateY(-5px);
+}
+.login{
+    margin: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+.login:hover{
+    background-color: white;
+    color: rgb(255, 69, 0);
+}
+.content{
+    display: flex;
+    background-color: rgb(248, 245, 238);
+    
+}
+.txt{
+    margin: 30px;
+    
+    
+}
+h1{
+    margin: 25px;
+    font-size: 1.4em ;
+    color: #ff4500;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+h1:hover{
+    transform: translateX(30px);
+}
+.txt1{
+    font-size: 2em;
+    transition: transform 0.3s;
+}
+.txt1:hover{
+    transform: translateY(20px);
+}
+.off{
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    text-decoration: underline;
+
+}
+.box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#ffffff34,#ffffff27) ;
+    flex-direction: column;
+    padding: 15px 30px;
+    display: flex;
+    box-sizing: 10%;
+    border: 10%;
+    border-radius: 20px;
+    border-color: black;
+    margin: 25px;
+    padding: 25px;
+    transition: transform 0.3s;
+
+}   
+.box:hover{
+    transform: translateY(-10px);
+}
+.prix{
+    margin: 20px;
+    font-size: 20px;
+}
+.article{
+    margin: 10px;
+
+}
+.prx{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    color: rgb(255, 69, 0);
+}
+.pr{
+    display:  flex;
+}
+.dr{
+     margin: 25px;
+     justify-items: center;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     text-decoration: underline;
+     font-size: 2em;
+     color: black;
+     font-weight: bold;
+}
+.sr{
+    position: relative;
+    width: 250px;
+    height: 270px;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    flex-direction: column;
+    padding: 15px 30px;
+    display: flex;
+    box-sizing: 10%;
+    border: 10%;
+    border-radius: 20px;
+    border-color: black;
+    margin: 25px;
+    padding: 25px;
+}
+.ig{
+    margin: 20px;
+}
+.op{
+    margin: 10px;
+}
+.ms{
+    margin: 10px;
+    font-size: 18px;
+    display: block;
+}
+.po{
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+.sepa{
+    display: flex;
+    margin:100px;
+}
+.sb{
+   background-color: black;
+   font-family: 40px;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+.sb:hover{
+    background-color: #ff4500;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.nv{
+    display: none;
+}
+@media screen and (max-width:850px) {
+    nav{
+        display: none;
+    }
+    .nv{
+        display: block;
+    }
+    .titre{
+        font-size: 1em;
+        margin: 12px;
+    }
+    .login{
+        font-size: 13px;
+        margin: 12px;
+    }
+    .content{
+        display: block;
+        flex-direction: column;
+        
+        
+    }
+    .img{
+        height: 500px;
+        width: 400px;
+    }
+    .txt{
+        margin: 25px;
+    }
+    h1{
+        font-size: 1em;
+        margin: 12px;
+        padding: 6px;
+    }
+    .txt1{
+        font-size: 1em;
+    }
+    .off{
+        margin: 12px;
+        font-size: 1em;
+    }
+    .pr{
+        display: block;
+        flex-direction: column;
+    }
+    .box{
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        margin: 150px;
+    }
+    .dr{
+        font-size: 1em;
+    }
+    .sr{
+        width: 170px;
+        height: 190px;
+        margin: 12px;
+        padding: 12px;
+    }
+    .ig{
+        margin: 10px;
+
+    }
+    .op{
+        margin: 6px;
+    }
+    .ms{
+        margin:6px ;
+        font-size: 10px;
+    }
+     .po{
+        font-size: 12px;
+     }
+     .sb{
+        font-size: 8px;
+     }
+    .sepa{
+        display: block;
+    }
+
+    
+}
